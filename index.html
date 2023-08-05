@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr"> <!-- On peut preciser la langue de la page-->
+<head>
+	<meta charset="UTF-8"> <!-- J'ai aussi preciser le charset pour ne pas avoir des problemes avec les caracteres speciaux-->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ma page Web</title> <!-- Le titre de la page-->
+
+	<!-- Les metadonnees Open Graph. Je precise le titre et le description de la page -->
+
+	<meta property="og:title" content="Ma page web">
+	<meta property="og:description" content="Je parle de mes passions">
+
+	<script type="application/ld+json">
+{
+  "@context": "https://eren-turkoglu.000webhostapp.com",
+  "@type": "Article",
+  "headline": "Ma page web",
+  "datePublished": "2023-06-15"
+}
+	</script>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/_vendor/bootstrap/dist/css/bootstrap.min.css" />
+
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Eren TURKOGLU</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-bs-target="#navbarColor01" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Exercice 2 (Accueil)</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="exercice3.html">Exercice 3(CSS)</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="exercice5.php">Exercice 5(PHP)</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="exercice6.html">Exercice 6(JS)</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+	<br>
+	<h2>Moi</h2> <!-- Les balises h(1-6) peut nous servir pour les titres -->
+	<br>
+	<p>
+	Bonjour, je m'appelle Eren Turkoglu. Je vais vous parler de mes passions et des mes loisirs.
+	</p> <!-- Une petite paragraphe pour me presenter-->
+	<br>
+	<table> <!-- Avec la balise table on peut faire des tableaux. Balise tr pour ouvrire la ligne td pour les colonnes et th pour les en tetes. -->
+		<tr>
+			<th>Nom</th>
+			<th>Image</th>
+			<th>Quand j'ai commencé</th>
+			<th>Commentaire</th>
+		</tr>
+		<tr>
+			<td>Programmer</td>
+			<td><a href="https://lh3.googleusercontent.com/YiHxHCxngm1kn_yoHW45Utlrgy86ijRJDdnKS2zRgURzi-YgVKOEtNf6AHMNnFGYrmxrmLVxIwdR-gkU4euzV7B3h4vL6V3rLR6e0Fj8uND_MLJes6oT-EzuG5qyVD855qELsnPdJ2Iq0SbA6A"><img src="https://lh3.googleusercontent.com/YiHxHCxngm1kn_yoHW45Utlrgy86ijRJDdnKS2zRgURzi-YgVKOEtNf6AHMNnFGYrmxrmLVxIwdR-gkU4euzV7B3h4vL6V3rLR6e0Fj8uND_MLJes6oT-EzuG5qyVD855qELsnPdJ2Iq0SbA6A" width="150" alt="image-programmer"></a></td> <!-- Grace a la balise img on peut ajouter des images et des liens avec la balise a -->
+			<td>Ça fais environ 4-5 ans</td>
+			<td>J'aime bien programmer. J'ai fais quelques petit applişcations pour les ordinateurs en Java. Puis, j'ai appris SQL et PHP. Je me suis lancé sur le développement site web. Et maintenant, j'essaye de faire des petit jeux vidéo sur Unity en C#</td>
+		</tr>
+		<tr>
+			<td>Regarder des films et séries</td>
+			<td><a href="https://www.neonmag.fr/imgre/fit/~1~NEO~2021~04~09~d5a26161-11ba-4dde-9ab4-1f0a9e9b7f20.jpeg/1200x630/quality/80/netflix-astuces-regarder-films-series.jpg"><img src="https://www.neonmag.fr/imgre/fit/~1~NEO~2021~04~09~d5a26161-11ba-4dde-9ab4-1f0a9e9b7f20.jpeg/1200x630/quality/80/netflix-astuces-regarder-films-series.jpg" width="150" alt="image-film"></a></td>
+			<td>Depuis que je suis petit</td>
+			<td>J'adore regarder un film. Et aussı les séries.</td>
+		</tr>
+		<tr>
+			<td>Voyager</td>
+			<td><a href="https://www.belambra.fr/les-echappees/wp-inside/uploads/2013/01/comment-bien-voyager-en-avion-suivez-nos-conseils-pour-un-vol-agreable-1280x720.jpg"><img src="https://www.belambra.fr/les-echappees/wp-inside/uploads/2013/01/comment-bien-voyager-en-avion-suivez-nos-conseils-pour-un-vol-agreable-1280x720.jpg" width="150" alt="image-voyage"></a></td>
+			<td>Depuis que je suis petit</td>
+			<td>J'aaime bien voir des lieux différents, des cultures différents.</td>
+		</tr>
+	</table>
+
+	<br>
+
+	<b>Note : Vous pouvez cliquer sur les photos. Désolé pour les fautes d'orthographe.</b>
+
+	<p>Les Liens : </p>
+
+	<ul> <!-- La balise ul est pour les listes et li les elements de la liste -->
+		<li><a href="https://lh3.googleusercontent.com/YiHxHCxngm1kn_yoHW45Utlrgy86ijRJDdnKS2zRgURzi-YgVKOEtNf6AHMNnFGYrmxrmLVxIwdR-gkU4euzV7B3h4vL6V3rLR6e0Fj8uND_MLJes6oT-EzuG5qyVD855qELsnPdJ2Iq0SbA6A">Lien photo 1</a></li>
+		<li><a href="https://www.neonmag.fr/imgre/fit/~1~NEO~2021~04~09~d5a26161-11ba-4dde-9ab4-1f0a9e9b7f20.jpeg/1200x630/quality/80/netflix-astuces-regarder-films-series.jpg">Lien photo 2</a></li>
+		<li><a href="https://www.google.com">https://www.google.com</a></li>
+	</ul>
+
+	<video width="320" height="240" controls>
+      <source src="presentation.mp4" type="video/mp4">
+    </video>
+
+</body>
+</html>
